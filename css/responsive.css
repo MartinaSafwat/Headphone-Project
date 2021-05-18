@@ -1,0 +1,47 @@
+
+/* Small devices (landscape phones, 576 px and up) */
+@media(min-width:445px){
+.banner{
+    width:100%;  }
+ul{
+    position: absolute;
+    font-size: 12px;
+}
+.social-media a {
+    margin-right: 6px;
+}
+.heading{
+    margin: 0;
+}
+input[type="button"]{
+    margin-bottom: 20px;
+}
+.order p{
+    margin: 0;
+}
+.contact{
+    height: 620px;
+}
+.contact .overlay{
+    height: 620px;}
+}
+
+
+/* Medium devices ( 768 px and up) */
+ @media(min-width:768px){
+    .heading {
+     margin: 155px 215px;
+ } 
+
+
+ @media(min-width:780px){
+     ul{
+         position: relative;
+         font-size: 17px;
+ }
+ .contact{
+    height: 335px;
+}
+.contact .overlay{
+    height: 335px;}
+}
